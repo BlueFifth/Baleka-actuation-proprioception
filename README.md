@@ -1,7 +1,7 @@
 # Baleka-actuation-proprioception
 Repository containing data and MATLAB files used for tuning of Baleka 2.5's legs
 
-This corresponds to the methods shown in the attached paper (Force Control and Proprioception.pdf), however the data is different from the paper as the tuning was re-done when new motor drivers were installed.
+This corresponds to the methods shown in the attached paper (Force Control and Proprioception.pdf), however the data is different from the paper's, as the tuning was re-done when new motor drivers were installed.
 
 In brief, the steps are as follows to replicate the experiment (assuming you have the same hardware and setup):
 
