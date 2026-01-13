@@ -5,3 +5,4 @@ ComplianceSpeedgoat.slx.r2024a
 *.mldatx
 *.slxc
 Data/M6M5ID_Test1_actuation_uncompensated.mat
+Data/M6M5ID_Test2_actuation_compensated.mat
