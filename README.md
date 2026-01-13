@@ -25,3 +25,4 @@ After 4s, the robot should stand up to ~30cm leg length. If safe to do so, press
 
 9. Run TuningProprioception.mlx making any adjustments for your data (filename, ordering of fields, etc.)
 
+Note that the repository does not include datasets due to file size limitations. Please contact me if you'd like the data.
