@@ -127,9 +127,9 @@ ylabel("Force plate Z force (N)"); %[output:833009db]
 xlabel("Motor measured force (N)"); %[output:833009db]
 legend("Measured data", "Line of best fit") %[output:833009db]
 hold off %[output:833009db]
-m1_hor = coeff(1) %[output:9f061d68]
-c1_hor = coeff(2) %[output:91174b99]
-R1_hor = Sr.rsquared %[output:0d37c44e]
+m1_vert = coeff(1) %[output:9f061d68]
+c1_vert = coeff(2) %[output:91174b99]
+R1_vert = Sr.rsquared %[output:0d37c44e]
 %where line of best fit is y=mx +c
 
 % Y force
@@ -145,9 +145,9 @@ ylabel("Force plate Y force (N)"); %[output:7a4c63de]
 xlabel("Motor measured Y force (N)"); %[output:7a4c63de]
 legend("Measured data", "Line of best fit") %[output:7a4c63de]
 hold off %[output:7a4c63de]
-m2_vert = coeff(1) %[output:48957b5a]
-c2_vert = coeff(2) %[output:78fd649b]
-R2_vert = Sr.rsquared %[output:84cbdd47]
+m2_hor = coeff(1) %[output:48957b5a]
+c2_hor = coeff(2) %[output:78fd649b]
+R2_hor = Sr.rsquared %[output:84cbdd47]
 Rsq = corrcoef(FPy, Fy_read).^2 %[output:49f395b5]
 %where line of best fit is y=mx +c
 
