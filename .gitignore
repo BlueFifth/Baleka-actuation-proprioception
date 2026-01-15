@@ -10,3 +10,5 @@ Data/M6M5ID_Test3_both_compensated.mat
 Data/M2M3ID_Test4_actuation_uncompensated.mat
 ComplianceSpeedgoat.slxc
 ComplianceSpeedgoat.mldatx
+Data/M2M3ID_Test5_actuation_compensated.mat
+*.slxc
