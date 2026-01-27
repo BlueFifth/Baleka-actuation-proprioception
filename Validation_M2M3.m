@@ -97,10 +97,10 @@ for i = 1:length(MLt_cmd)
 end
 clear F_cmd F_read i J11 J12 J22 J21 times ts JTxy Jxy
 %%
-my_tune = 0.5640 %[output:0f5d1160]
-cy_tune = -14.0836 %[output:9ede34eb]
-mx_tune = 0.4951 %[output:4cd0f79c]
-cx_tune = 1.5691 %[output:86527335]
+my_tune = 0.5640 %[output:0f5d1160] %[output:9ede34eb] %[output:4cd0f79c] %[output:86527335]
+cy_tune = -14.0836
+mx_tune = 0.4951
+cx_tune = 1.5691
 
 % forces:
 plot(FPz) %[output:713d83c5]
